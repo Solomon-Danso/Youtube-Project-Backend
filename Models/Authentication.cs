@@ -63,5 +63,6 @@ namespace YouTube_Backend.Models
 
     public class Constants{
         public string apiServer = "http://localhost:5166/";
+        public string AdminEmail = "admin@example.com";
     }
 }

@@ -15,8 +15,15 @@ namespace YouTube_Backend.Models
         public string? UserName { get; set; }
         public string? DateOfNotification { get; set; }
 
-
-
+    }
+    public class Message{
+        public int Id { get; set; }
+        public string? FullName { get; set; }
+        public string? Email { get; set; }
+        public string? PhoneNumber { get; set; }
+        public string? UserMessage { get; set; }
+        public string? DateOfMessage { get; set; }
 
     }
+
 }

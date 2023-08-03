@@ -30,7 +30,7 @@ public DbSet<DisLike> DisLikes { get; set; }
 public DbSet<VideoComment> VideoComments { get; set; }
 public DbSet<VideoCommentsReply> VideoCommentsReplys { get; set; }
 public DbSet<UploadVideoNotification> UploadVideoNotifications { get; set; }
-
+public DbSet<Message> Messages { get; set; }
 
     }
 }

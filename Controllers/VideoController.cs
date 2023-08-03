@@ -542,7 +542,7 @@ public async Task<IActionResult> VideoReplies(string videoId){
 private async Task VideoUploadNotification(string email, string userName, string videoName, string uploadDate,string videoLink, string AdminName)
 {
      EmailRequest mail = new EmailRequest();
-    string subject = "Password Reset";
+    string subject = "Video Upload Notification";
 string body = $@"<!DOCTYPE html>
 <html>
 <head>
@@ -617,7 +617,7 @@ string body = $@"<!DOCTYPE html>
 private async Task SendReplyEmail(string email, string userName, string videoName, string commentDate, string theComment, string theReply, string AdminName)
 {
      EmailRequest mail = new EmailRequest();
-    string subject = "Password Reset";
+    string subject = "Comment Reply";
 string body = $@"<!DOCTYPE html>
 <html>
 <head>
@@ -689,7 +689,7 @@ string body = $@"<!DOCTYPE html>
 private async Task SendUpdatedReplyEmail(string email, string userName, string videoName, string commentDate, string theComment, string theReply, string AdminName)
 {
      EmailRequest mail = new EmailRequest();
-    string subject = "Password Reset";
+    string subject = "Updated Reply";
 string body = $@"<!DOCTYPE html>
 <html>
 <head>
@@ -727,7 +727,7 @@ string body = $@"<!DOCTYPE html>
 </head>
 <body>
     <div class='container'>
-        <div class='header'>Updated kiComment Reply</div>
+        <div class='header'>Updated Comment Reply</div>
         <div class='text'>Dear {userName},</div>
         <div class='text'>I hope this email finds you well. I want to personally thank you for sharing your thought on, {videoName}</div>
         <div class='text'>On {commentDate} , your comment was <b>{theComment}</b> </div>
