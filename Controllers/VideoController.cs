@@ -21,6 +21,7 @@ namespace YouTube_Backend.Controllers
             context = ctx;
         }
 Roles role = new Roles();
+Constants constant = new Constants();
         [HttpPost("AddVideo")]
     public async Task<IActionResult> AddVideo([FromForm]VideoModelDto request, string AdminId){
         //isAdmin Login Credentials Before you can upload video
@@ -94,6 +95,36 @@ if (request.VideoPictureFile == null )
         VideoId = IdGenerator()
 
     };
+    var Link = constant.apiServer+newVideo.VideoPath;
+    var users = context.UserAccounts.Where(u=>u.Role == role.NormalUser && u.EmailAddress !=null);
+    foreach(var user in users){
+        var notify = new UploadVideoNotification{
+            VideoId = newVideo.VideoId,
+            Title = newVideo.Title,
+            VideoUrl = Link,
+            UserId = user.UserId,
+            UserName = user.FullName,
+            DateOfNotification = DateTime.Today.Date.ToString("dd MMMM,yyyy")
+
+        };
+        context.UploadVideoNotifications.Add(notify);
+    
+    /*
+
+        try
+        {
+            if(user.EmailAddress==null||user.FullName==null||newVideo.Title==null||newVideo.DateUploaded==null|| Link==null||admin.FullName==null){
+                return BadRequest("All fields are required");
+            }
+           await VideoUploadNotification(user.EmailAddress, user.FullName, newVideo.Title, newVideo.DateUploaded,Link, admin.FullName);
+ 
+        }
+        catch (Exception)
+        {  return BadRequest("Failed to send notification. Please try again later.");}
+    */
+       
+    }
+
 
     context.VideoModels.Add(newVideo);
     await context.SaveChangesAsync();
@@ -197,6 +228,11 @@ public async Task<IActionResult> ViewVideo(string videoId){
     return Ok(video);
 }
 
+[HttpGet("ViewAllVideo")]
+public async Task<IActionResult> ViewAllVideo(){
+    var video = context.VideoModels.OrderByDescending(v=>v.TotalViews).ToList();
+    return Ok(video);
+}
 
 
 
@@ -501,6 +537,83 @@ public async Task<IActionResult> VideoReplies(string videoId){
     return Ok(replies);
 }
 
+
+
+private async Task VideoUploadNotification(string email, string userName, string videoName, string uploadDate,string videoLink, string AdminName)
+{
+     EmailRequest mail = new EmailRequest();
+    string subject = "Password Reset";
+string body = $@"<!DOCTYPE html>
+<html>
+<head>
+<style>
+    body {{
+        font-family: Arial, sans-serif;
+        
+    }}
+
+    .container {{
+        max-width: 600px;
+    }}
+
+
+
+    .header {{
+        font-size: 24px;
+       
+    }}
+
+    .text {{
+        color: #666666;
+        margin-bottom: 10px;
+    }}
+
+    .token {{
+        font-size: 28px;
+        font-weight: bold;
+    }}
+
+    .footer {{
+        color: #999999;
+    }}
+</style>
+</head>
+<body>
+    <div class='container'>
+        <div class='header'>Updated kiComment Reply</div>
+        <div class='text'>Dear {userName},</div>
+        <div class='text'>I hope this email finds you well. I want to personally thank you for sticking with us</div>
+        <div class='text'>A new video have been uploaded today, {uploadDate}</div>
+        <div class='text'>The title of the video is <b>{videoName}</b></div>
+        <div class='text'>This is the link to the video {videoLink}</div>
+        <div class='text'>Regards,</div>
+        <div class='text'>{AdminName}</div>
+        </div>
+</body>
+</html>";
+
+    using (SmtpClient smtpClient = new SmtpClient(mail.SmtpHost, mail.SmtpPort))
+    {
+        
+        smtpClient.EnableSsl = true;
+        smtpClient.UseDefaultCredentials = false;
+        smtpClient.Credentials = new NetworkCredential(mail.SmtpUserName, mail.SmtpPassword);
+
+        MailMessage mailMessage = new MailMessage();
+        mailMessage.From = new MailAddress(mail.SmtpUserName);
+        mailMessage.To.Add(email);
+        mailMessage.Subject = subject;
+        mailMessage.Body = body;
+        mailMessage.IsBodyHtml = true; // Set the email body format to HTML
+
+        await smtpClient.SendMailAsync(mailMessage);
+    }
+}
+
+
+
+
+
 private async Task SendReplyEmail(string email, string userName, string videoName, string commentDate, string theComment, string theReply, string AdminName)
 {
      EmailRequest mail = new EmailRequest();
@@ -614,7 +727,7 @@ string body = $@"<!DOCTYPE html>
 </head>
 <body>
     <div class='container'>
-        <div class='header'>Comment Reply</div>
+        <div class='header'>Updated kiComment Reply</div>
         <div class='text'>Dear {userName},</div>
         <div class='text'>I hope this email finds you well. I want to personally thank you for sharing your thought on, {videoName}</div>
         <div class='text'>On {commentDate} , your comment was <b>{theComment}</b> </div>

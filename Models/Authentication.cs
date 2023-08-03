@@ -60,4 +60,8 @@ namespace YouTube_Backend.Models
         public string NormalUser = "NormalUser";
 
     }
+
+    public class Constants{
+        public string apiServer = "http://localhost:5166/";
+    }
 }

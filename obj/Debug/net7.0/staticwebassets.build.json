@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "5aXNMPriK93rkGB3vsOvP8X2AQA1WyhjXdYyW+EZ3NE=",
+  "Hash": "cOa0ZI9RlPYOFi4matuxZEKdWuX+8HA4C1fK1po3kVY=",
   "Source": "YouTube-Backend",
   "BasePath": "_content/YouTube-Backend",
   "Mode": "Default",
@@ -51,6 +51,40 @@
       "OriginalItemSpec": "wwwroot/Videos/VideoFiles/54f49482-b922-4c01-ba54-e6ead8336f5a.png"
     },
     {
+      "Identity": "/Users/glydetek/Desktop/WIP/Youtube-Project-Backend/wwwroot/Videos/VideoFiles/d2fc2f47-2d33-4040-bdca-dcf88494a035.png",
+      "SourceId": "YouTube-Backend",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/glydetek/Desktop/WIP/Youtube-Project-Backend/wwwroot/",
+      "BasePath": "_content/YouTube-Backend",
+      "RelativePath": "Videos/VideoFiles/d2fc2f47-2d33-4040-bdca-dcf88494a035.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/Videos/VideoFiles/d2fc2f47-2d33-4040-bdca-dcf88494a035.png"
+    },
+    {
+      "Identity": "/Users/glydetek/Desktop/WIP/Youtube-Project-Backend/wwwroot/Videos/VideoFiles/de4e9e8a-1504-4f00-8666-8317de3318da.png",
+      "SourceId": "YouTube-Backend",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/glydetek/Desktop/WIP/Youtube-Project-Backend/wwwroot/",
+      "BasePath": "_content/YouTube-Backend",
+      "RelativePath": "Videos/VideoFiles/de4e9e8a-1504-4f00-8666-8317de3318da.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/Videos/VideoFiles/de4e9e8a-1504-4f00-8666-8317de3318da.png"
+    },
+    {
       "Identity": "/Users/glydetek/Desktop/WIP/Youtube-Project-Backend/wwwroot/Videos/VideoPictureFiles/05d6f788-03aa-4503-bd3a-f5e28cc5a9de.png",
       "SourceId": "YouTube-Backend",
       "SourceType": "Discovered",
@@ -66,6 +100,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/Videos/VideoPictureFiles/05d6f788-03aa-4503-bd3a-f5e28cc5a9de.png"
+    },
+    {
+      "Identity": "/Users/glydetek/Desktop/WIP/Youtube-Project-Backend/wwwroot/Videos/VideoPictureFiles/73cc75e2-7044-4627-bbd7-2977da2c3de3.png",
+      "SourceId": "YouTube-Backend",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/glydetek/Desktop/WIP/Youtube-Project-Backend/wwwroot/",
+      "BasePath": "_content/YouTube-Backend",
+      "RelativePath": "Videos/VideoPictureFiles/73cc75e2-7044-4627-bbd7-2977da2c3de3.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/Videos/VideoPictureFiles/73cc75e2-7044-4627-bbd7-2977da2c3de3.png"
+    },
+    {
+      "Identity": "/Users/glydetek/Desktop/WIP/Youtube-Project-Backend/wwwroot/Videos/VideoPictureFiles/bcbaa329-e6c3-43b2-8b5c-deef06530f4f.png",
+      "SourceId": "YouTube-Backend",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/glydetek/Desktop/WIP/Youtube-Project-Backend/wwwroot/",
+      "BasePath": "_content/YouTube-Backend",
+      "RelativePath": "Videos/VideoPictureFiles/bcbaa329-e6c3-43b2-8b5c-deef06530f4f.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/Videos/VideoPictureFiles/bcbaa329-e6c3-43b2-8b5c-deef06530f4f.png"
     }
   ]
 }

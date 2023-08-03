@@ -32,6 +32,38 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Videos\VideoFiles\54f49482-b922-4c01-ba54-e6ead8336f5a.png))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Videos\VideoFiles\d2fc2f47-2d33-4040-bdca-dcf88494a035.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>YouTube-Backend</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/YouTube-Backend</BasePath>
+      <RelativePath>Videos/VideoFiles/d2fc2f47-2d33-4040-bdca-dcf88494a035.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Videos\VideoFiles\d2fc2f47-2d33-4040-bdca-dcf88494a035.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Videos\VideoFiles\de4e9e8a-1504-4f00-8666-8317de3318da.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>YouTube-Backend</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/YouTube-Backend</BasePath>
+      <RelativePath>Videos/VideoFiles/de4e9e8a-1504-4f00-8666-8317de3318da.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Videos\VideoFiles\de4e9e8a-1504-4f00-8666-8317de3318da.png))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Videos\VideoPictureFiles\05d6f788-03aa-4503-bd3a-f5e28cc5a9de.png))">
       <SourceType>Package</SourceType>
       <SourceId>YouTube-Backend</SourceId>
@@ -47,6 +79,38 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Videos\VideoPictureFiles\05d6f788-03aa-4503-bd3a-f5e28cc5a9de.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Videos\VideoPictureFiles\73cc75e2-7044-4627-bbd7-2977da2c3de3.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>YouTube-Backend</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/YouTube-Backend</BasePath>
+      <RelativePath>Videos/VideoPictureFiles/73cc75e2-7044-4627-bbd7-2977da2c3de3.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Videos\VideoPictureFiles\73cc75e2-7044-4627-bbd7-2977da2c3de3.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Videos\VideoPictureFiles\bcbaa329-e6c3-43b2-8b5c-deef06530f4f.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>YouTube-Backend</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/YouTube-Backend</BasePath>
+      <RelativePath>Videos/VideoPictureFiles/bcbaa329-e6c3-43b2-8b5c-deef06530f4f.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Videos\VideoPictureFiles\bcbaa329-e6c3-43b2-8b5c-deef06530f4f.png))</OriginalItemSpec>
     </StaticWebAsset>
   </ItemGroup>
 </Project>

@@ -9,8 +9,24 @@
       "PackagePath": "staticwebassets/Videos/VideoFiles/54f49482-b922-4c01-ba54-e6ead8336f5a.png"
     },
     {
+      "Id": "/Users/glydetek/Desktop/WIP/Youtube-Project-Backend/wwwroot/Videos/VideoFiles/d2fc2f47-2d33-4040-bdca-dcf88494a035.png",
+      "PackagePath": "staticwebassets/Videos/VideoFiles/d2fc2f47-2d33-4040-bdca-dcf88494a035.png"
+    },
+    {
+      "Id": "/Users/glydetek/Desktop/WIP/Youtube-Project-Backend/wwwroot/Videos/VideoFiles/de4e9e8a-1504-4f00-8666-8317de3318da.png",
+      "PackagePath": "staticwebassets/Videos/VideoFiles/de4e9e8a-1504-4f00-8666-8317de3318da.png"
+    },
+    {
       "Id": "/Users/glydetek/Desktop/WIP/Youtube-Project-Backend/wwwroot/Videos/VideoPictureFiles/05d6f788-03aa-4503-bd3a-f5e28cc5a9de.png",
       "PackagePath": "staticwebassets/Videos/VideoPictureFiles/05d6f788-03aa-4503-bd3a-f5e28cc5a9de.png"
+    },
+    {
+      "Id": "/Users/glydetek/Desktop/WIP/Youtube-Project-Backend/wwwroot/Videos/VideoPictureFiles/73cc75e2-7044-4627-bbd7-2977da2c3de3.png",
+      "PackagePath": "staticwebassets/Videos/VideoPictureFiles/73cc75e2-7044-4627-bbd7-2977da2c3de3.png"
+    },
+    {
+      "Id": "/Users/glydetek/Desktop/WIP/Youtube-Project-Backend/wwwroot/Videos/VideoPictureFiles/bcbaa329-e6c3-43b2-8b5c-deef06530f4f.png",
+      "PackagePath": "staticwebassets/Videos/VideoPictureFiles/bcbaa329-e6c3-43b2-8b5c-deef06530f4f.png"
     },
     {
       "Id": "obj/Debug/net7.0/staticwebassets/msbuild.YouTube-Backend.Microsoft.AspNetCore.StaticWebAssets.props",

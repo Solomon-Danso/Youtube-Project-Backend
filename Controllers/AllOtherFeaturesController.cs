@@ -15,6 +15,15 @@ namespace YouTube_Backend.Controllers
         public AllOtherFeaturesController(DataContext ctx){
             context = ctx;
         }
+
+        [HttpPost("SearchVideo")]
+        public async Task<IActionResult> SearchVideo(string searchTerm){
+            var searchResult = context.VideoModels .ToList().Where(v=>v.Title != null && v.Title.Contains(searchTerm,StringComparison.OrdinalIgnoreCase)).ToList();
+            if(searchResult.Count()==0){
+                return NotFound("No Result Found");
+            }
+            return Ok(searchResult);
         
+        }
     }
 }
