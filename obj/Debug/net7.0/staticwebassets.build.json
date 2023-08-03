@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "Hash": "5aXNMPriK93rkGB3vsOvP8X2AQA1WyhjXdYyW+EZ3NE=",
+  "Source": "YouTube-Backend",
+  "BasePath": "_content/YouTube-Backend",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "YouTube-Backend/wwwroot",
+      "Source": "YouTube-Backend",
+      "ContentRoot": "/Users/glydetek/Desktop/WIP/Youtube-Project-Backend/wwwroot/",
+      "BasePath": "_content/YouTube-Backend",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/Users/glydetek/Desktop/WIP/Youtube-Project-Backend/wwwroot/Admin/ProfilePicture/78a93205-4f31-4755-a495-9d1bbac65e6d.png",
+      "SourceId": "YouTube-Backend",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/glydetek/Desktop/WIP/Youtube-Project-Backend/wwwroot/",
+      "BasePath": "_content/YouTube-Backend",
+      "RelativePath": "Admin/ProfilePicture/78a93205-4f31-4755-a495-9d1bbac65e6d.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/Admin/ProfilePicture/78a93205-4f31-4755-a495-9d1bbac65e6d.png"
+    },
+    {
+      "Identity": "/Users/glydetek/Desktop/WIP/Youtube-Project-Backend/wwwroot/Videos/VideoFiles/54f49482-b922-4c01-ba54-e6ead8336f5a.png",
+      "SourceId": "YouTube-Backend",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/glydetek/Desktop/WIP/Youtube-Project-Backend/wwwroot/",
+      "BasePath": "_content/YouTube-Backend",
+      "RelativePath": "Videos/VideoFiles/54f49482-b922-4c01-ba54-e6ead8336f5a.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/Videos/VideoFiles/54f49482-b922-4c01-ba54-e6ead8336f5a.png"
+    },
+    {
+      "Identity": "/Users/glydetek/Desktop/WIP/Youtube-Project-Backend/wwwroot/Videos/VideoPictureFiles/05d6f788-03aa-4503-bd3a-f5e28cc5a9de.png",
+      "SourceId": "YouTube-Backend",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/glydetek/Desktop/WIP/Youtube-Project-Backend/wwwroot/",
+      "BasePath": "_content/YouTube-Backend",
+      "RelativePath": "Videos/VideoPictureFiles/05d6f788-03aa-4503-bd3a-f5e28cc5a9de.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/Videos/VideoPictureFiles/05d6f788-03aa-4503-bd3a-f5e28cc5a9de.png"
+    }
+  ]
+}

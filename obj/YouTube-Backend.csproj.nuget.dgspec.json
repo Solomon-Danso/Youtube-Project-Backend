@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/glydetek/Projects/YouTube-Backend/YouTube-Backend/YouTube-Backend.csproj": {}
+    "/Users/glydetek/Desktop/WIP/Youtube-Project-Backend/YouTube-Backend.csproj": {}
   },
   "projects": {
-    "/Users/glydetek/Projects/YouTube-Backend/YouTube-Backend/YouTube-Backend.csproj": {
+    "/Users/glydetek/Desktop/WIP/Youtube-Project-Backend/YouTube-Backend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/glydetek/Projects/YouTube-Backend/YouTube-Backend/YouTube-Backend.csproj",
+        "projectUniqueName": "/Users/glydetek/Desktop/WIP/Youtube-Project-Backend/YouTube-Backend.csproj",
         "projectName": "YouTube-Backend",
-        "projectPath": "/Users/glydetek/Projects/YouTube-Backend/YouTube-Backend/YouTube-Backend.csproj",
+        "projectPath": "/Users/glydetek/Desktop/WIP/Youtube-Project-Backend/YouTube-Backend.csproj",
         "packagesPath": "/Users/glydetek/.nuget/packages/",
-        "outputPath": "/Users/glydetek/Projects/YouTube-Backend/YouTube-Backend/obj/",
+        "outputPath": "/Users/glydetek/Desktop/WIP/Youtube-Project-Backend/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/glydetek/.nuget/NuGet/NuGet.Config"

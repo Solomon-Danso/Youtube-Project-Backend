@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9ChXl20D4T2KTdv+mJ7J+rbsE8fCwskU825qczJBNrrvBxGnJbMxZYDO/FZv+kI0tncH83K90tlFbSc0kYGoag==",
+  "dgSpecHash": "+odg48oUfFSnck0P1t9K7tQmy6h0eqLS1qIOGYih+5yZOqQ/Y2NvC0LijllYJz/XaZEGtQYqaDBgG5d8px97Ig==",
   "success": true,
-  "projectFilePath": "/Users/glydetek/Projects/YouTube-Backend/YouTube-Backend/YouTube-Backend.csproj",
+  "projectFilePath": "/Users/glydetek/Desktop/WIP/Youtube-Project-Backend/YouTube-Backend.csproj",
   "expectedPackageFiles": [
     "/Users/glydetek/.nuget/packages/azure.core/1.24.0/azure.core.1.24.0.nupkg.sha512",
     "/Users/glydetek/.nuget/packages/azure.identity/1.6.0/azure.identity.1.6.0.nupkg.sha512",
