@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{4BA0EC8A-9A18-4049-84B9-3A1B6C116069}|https">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.YouTube-Backend PreferredExecutionTarget="/Applications/Brave Browser.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="../../../../../usr/local/share/dotnet/sdk/7.0.304/Sdks/Microsoft.NET.Sdk/targets/Microsoft.PackageDependencyResolution.targets">
+    <Files>
+      <File FileName="Controllers/AuthenticationController.cs" Line="169" Column="65" />
+      <File FileName="YouTube-Backend.csproj" Line="11" Column="1" />
+      <File FileName="../../../../../usr/local/share/dotnet/sdk/7.0.304/Sdks/Microsoft.NET.Sdk/targets/Microsoft.PackageDependencyResolution.targets" Line="239" Column="21" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="YouTube-Backend" expanded="True">
+            <Node name="YouTube-Backend" expanded="True">
+              <Node name="Controllers" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+</Properties>
